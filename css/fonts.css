@@ -1,0 +1,140 @@
+/*
+font-family: 'Montserrat';
+
+font-family: 'NunitoSans';
+*/
+
+              /* Montserrat */
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../fonts/Montserrat-Thin.ttf') format('ttf');
+       font-weight: 100;
+       font-display: swap;
+       font-style: normal;
+}
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../fonts/Montserrat-ExtraLight.ttf') format('ttf');
+       font-weight: 200;
+       font-display: swap;
+       font-style: normal;
+}
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../fonts/Montserrat-Light.ttf') format('ttf');
+       font-weight: 300;
+       font-display: swap;
+       font-style: normal;
+}
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../fonts/Montserrat-Regular.ttf') format('ttf');
+       font-weight: 400;
+       font-display: swap;
+       font-style: normal;
+}
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../fonts/Montserrat-Medium.ttf') format('ttf');
+       font-weight: 500;
+       font-display: swap;
+       font-style: normal;
+}
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../fonts/Montserrat-SemiBold.ttf') format('ttf');
+       font-weight: 600;
+       font-display: swap;
+       font-style: normal;
+}
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../fonts/Montserrat-Bold.ttf') format('ttf');
+       font-weight: 700;
+       font-display: swap;
+       font-style: normal;
+}
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../fonts/Montserrat-ExtraBold.ttf') format('ttf');
+       font-weight: 800;
+       font-display: swap;
+       font-style: normal;
+}
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../fonts/Montserrat-Black.ttf') format('ttf');
+       font-weight: 900;
+       font-display: swap;
+       font-style: normal;
+}
+
+
+
+
+/* NunitoSans */
+
+@font-face {
+font-family: 'NunitoSans';
+src: url('../fonts/NunitoSans_7pt_Condensed-Thin.ttf') format('ttf');
+font-weight: 100;
+font-display: swap;
+font-style: normal;
+}
+@font-face {
+font-family: 'NunitoSans';
+src: url('../fonts/NunitoSans_7pt_Condensed-ExtraLight.ttf') format('ttf');
+font-weight: 200;
+font-display: swap;
+font-style: normal;
+}
+@font-face {
+font-family: 'NunitoSans';
+src: url('../fonts/NunitoSans_7pt_Condensed-Light.ttf') format('ttf');
+font-weight: 300;
+font-display: swap;
+font-style: normal;
+}
+@font-face {
+font-family: 'NunitoSans';
+src: url('../fonts/NunitoSans_7pt_Condensed-Regular.ttf') format('ttf');
+font-weight: 400;
+font-display: swap;
+font-style: normal;
+}
+@font-face {
+font-family: 'NunitoSans';
+src: url('../fonts/NunitoSans_7pt_Condensed-Medium.ttf') format('ttf');
+font-weight: 500;
+font-display: swap;
+font-style: normal;
+}
+@font-face {
+font-family: 'NunitoSans';
+src: url('../fonts/NunitoSans_7pt_Condensed-SemiBold.ttf') format('ttf');
+font-weight: 600;
+font-display: swap;
+font-style: normal;
+}
+@font-face {
+font-family: 'NunitoSans';
+src: url('../fonts/NunitoSans_7pt_Condensed-Bold.ttf') format('ttf');
+font-weight: 700;
+font-display: swap;
+font-style: normal;
+}
+@font-face {
+font-family: 'NunitoSans';
+src: url('../fonts/NunitoSans_7pt_Condensed-ExtraBold.ttf') format('ttf');
+font-weight: 800;
+font-display: swap;
+font-style: normal;
+}
+@font-face {
+font-family: 'NunitoSans';
+src: url('../fonts/NunitoSans_7pt_Condensed-Black.ttf') format('ttf');
+font-weight: 900;
+font-display: swap;
+font-style: normal;
+}

@@ -1,0 +1,324 @@
+/* Обнуление */
+ 
+html {
+ box-sizing: border-box;
+}
+*, *::before, *::after {
+ box-sizing: inherit;
+}
+img {
+ display: block;
+}
+h1, h2, h3, h4, h5, h6, p, ul, li, a {
+ padding: 0;
+ margin: 0;
+}
+body {
+ margin: 0;
+ padding: 0;
+ background-color: var(--light-color);
+}
+
+/* Переменные с цветами */
+
+:root {
+ --accent-color: #E9B902;
+ --darck-color: #333333;
+ --black-color: #212123;
+ --white-color: #ffffff;
+ --light-color: #FBFBFD;
+ --gray-color: #242424;
+}
+
+/* Стили для текста */
+
+.text_h1 {
+  font-family: Montserrat;
+  color: var(--light-color);
+  font-size: 56px;
+  font-weight: 600;
+  line-height: 66px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.text_sub-title {
+  color: var(--black-color);
+  font-family: Montserrat;
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 55px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.text_h2 {
+  color: var(--gray-color);
+  font-family: Montserrat;
+  font-size: 19.06px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.text_h3 {
+  color: var(--black-color);
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 14.36px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.text_h4 {
+  color: var(--white-color);
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 25.6px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.text_p {
+  color: var(--black-color);
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: left;
+} 
+.text_a {
+  color: var(--darck-color);
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 1px;
+  text-align: left;
+  text-transform: uppercase;
+  text-decoration: none;
+} 
+.text_a:hover {
+  color: var(--accent-color);
+}
+/* Стили для кнопок */
+.btn {  
+  color: var(--white-color);
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: center;
+  background-color: var(--accent-color);
+  border: none;  
+  border-radius: 5px;
+  width: 260px;
+  height: 56px;
+  transition: 1s;
+}
+.btn:hover {
+  color: var(--accent-color);
+  background-color: var(--white-color);  
+  border: solid 2px var(--accent-color);
+ }
+/* Контэйнер */
+
+.container {
+ max-width: 1200px;
+ margin: 0 auto;
+}
+
+/* Header */
+
+.header {
+  padding-top: 11px;
+  margin-bottom: 25px;
+}
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 38px;
+}
+.header__socials {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 200px;
+  padding-left: 4px;
+  list-style: none;
+}
+.header__contacts {
+  display: flex;
+}
+.header__contacts_link-number {
+  display: flex;
+  align-items: center;
+  color: var(--darck-color);
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 25px;
+  letter-spacing: 0%;
+  text-align: left;  
+  text-decoration: none;
+  margin-right: 39px;
+}
+.header__contacts_link-number img {
+  width: 8px;
+  height: 14px;
+  margin-right: 10px;
+}
+.header__btn {
+  color: var(--darck-color);
+  font-family: Montserrat;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: left;
+  border: none;
+  background-color: transparent;
+  padding: 0;
+}
+.header__btn:hover {
+  color: var(--accent-color);
+}
+.header__top-menu {
+  display: flex;
+  align-items: center;
+}
+.header__top-menu_logo {
+  width: 116px;
+  height: 51px;
+  margin-right: 72px;
+}
+.header__nav-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+
+}
+.header__top-menu_item {
+  margin-right: 21px;
+}
+.header__top-menu_item:last-child {
+  margin-right: 0;
+}
+.header__top-menu_btns {
+  display: flex;
+  margin-left: auto;
+  align-items: center;
+}
+.header__top-menu_search {
+  background-color: transparent;
+  border: none;
+  margin-right: 25px;
+}
+.header__top-menu_btn {
+  width: 152px;
+  height: 41px;
+}
+
+/*Firstscreen*/
+
+.ferstscreen {
+  background-image: url(../img/firstscreen-bg.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 64px;
+  position: relative;
+}
+.ferstscreen__title {
+  max-width: 577px;
+  margin-bottom: 25px;
+}
+.ferstscreen__subtitle {
+  color: var(--light-color);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  text-align: left;
+  max-width: 467px;
+  margin-bottom: 50px;
+  
+}
+.ferstscreen__btn {
+  width: 216px;
+  margin-bottom: 123px;
+}
+.ferstscreen__advantages {
+  position: absolute;
+  bottom: -99px;
+  max-width: 1200px;
+  padding: 23px 50px;
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--light-color);
+  border: 1px solid rgba(36, 36, 36, 0.1);
+  border-radius: 10px;
+  box-shadow: 0px 11px 24px 0px rgba(59, 61, 78, 0.05);
+}
+.ferstscreen__card {
+  display: flex;
+  align-items: flex-start;
+  border-right: solid 1px var(--darck-color);
+  text-align: center;
+  padding-top: 26px;
+  padding-left: 50px;
+}
+.ferstscreen__card:last-child {
+  border-right: none;
+}
+.ferstscreen__card:first-child {
+  padding-left: 0;
+}
+.ferstscreen__card_square {
+  width: 45px;
+  height: 45px;
+  background-color: #D9D9D9;
+  margin-right: 24px;
+}
+.firstscreen__card_text {  
+  text-align-last: left;
+  margin-right: 50px;
+  margin-bottom: 20px;
+}
+.ferstscreen__card_title {
+  text-align-last: left;
+  color: rgb(233, 185, 2);
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 120%;
+  letter-spacing: 0%; 
+  text-transform: capitalize;
+  }
+.ferstscreen__card_subtitle {
+  color: rgb(33, 33, 35);
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 130%;
+  letter-spacing: 1%;
+  text-transform: lowercase;
+}
+.ferstscreen__card:last-child .firstscreen__card_text {
+  margin-right: 0;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 1300px) {
+}
+@media screen and (max-width: 1060px) {
+}
+@media screen and (max-width: 500px) {
+}
