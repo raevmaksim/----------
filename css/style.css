@@ -605,6 +605,20 @@ body {
   border-radius: 8px;
   border: 0.7px solid rgba(33, 33, 35, 0.05);
   box-shadow: inset 0.7px 0.7px 7.05px 0px rgba(33, 33, 50, 0.06);
+  padding-left: 15px;
+}
+.partners2__form_input::placeholder {
+  color: var(--black-color);
+  opacity: 0.9;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.partners2__form_input:focus {
+  outline: solid 1px var(--accent-color);
 }
 .partners2__form_btn {
   width: 205px;
@@ -625,6 +639,37 @@ body {
 }
 .partners2__form_text span {
   color: var(--accent-color);
+}
+ 
+/* About */
+
+.about {
+  margin-bottom: 120px;
+}
+.partners__title_inner {
+}
+.partners__title {
+}
+.text_h2 {
+}
+.about__subtitle {
+  max-width: 711px;
+  margin-bottom: 25px;
+}
+.text_sub-title {
+}
+.about__text {
+  max-width: 701px;
+  margin-bottom: 50px;
+}
+.text_p {
+}
+.about__btn {
+  margin-bottom: 50px;
+}
+.btn {
+}
+.about__img {
 }
 
 
