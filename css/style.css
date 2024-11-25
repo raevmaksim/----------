@@ -672,6 +672,60 @@ body {
 .about__img {
 }
 
+/* AboutNews */
+
+.about2 {
+}
+.partners__title_inner {
+}
+.partners__title {
+}
+.text_h2 {
+}
+.about2__subtitle_flex {
+  display: flex;
+  justify-content: space-between;
+}
+.about2__subtitle {
+}
+.text_sub-title {
+}
+.about2__btn {
+}
+.btn {
+}
+.about2__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+}
+.about2__card {
+}
+.about2__card_date {
+  color: var(--darck-color);
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 5px;
+}
+.about2__card_info {
+  max-width: 351px;
+  color: rgb(29, 29, 29);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 31.2px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 16px;
+}
+.about2__card_img {
+}
+
+
 
 
 
