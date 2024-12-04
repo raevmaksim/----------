@@ -57,8 +57,22 @@
         </div>
       </div>
       <div class="header__top-menu">
-        <img src="img/logo.svg" alt="Logo" class="header__top-menu_logo">
-        <lu class="header__nav-menu">
+        <div class="logo__burger">
+          <img src="img/logo.svg" alt="Logo" class="header__top-menu_logo">
+          <div class="burger_close">
+                <!-- Burger -->
+            <a href="" class="header__burger" id="burger">
+              <div class="header__burger_line"></div>
+              <div class="header__burger_line"></div>
+              <div class="header__burger_line"></div>
+            </a>
+            <!-- Burger -->        
+            <a href="" class="header__close" id="close">
+              <p>&times;</p>
+            </a>
+            </div>
+        </div>
+        <lu class="header__nav-menu" id="navMenu">
           <li class="header__top-menu_item"><a href="#" class="header__top-menu_link text_a">Главная</a></li>
           <li class="header__top-menu_item"><a href="#" class="header__top-menu_link text_a">Каталог</a></li>
           <li class="header__top-menu_item"><a href="#" class="header__top-menu_link text_a">О компании</a></li>
@@ -66,7 +80,7 @@
           <li class="header__top-menu_item"><a href="#" class="header__top-menu_link text_a">Новости</a></li>
           <li class="header__top-menu_item"><a href="#" class="header__top-menu_link text_a">Контакты</a></li>
         </lu>
-        <div class="header__top-menu_btns">
+        <div class="header__top-menu_btns" id="menuBtns">
           <button class="header__top-menu_search">
             <img src="img/search.svg" alt="Search" class="header__top-menu_search-img">
           </button>
@@ -171,7 +185,7 @@
           <button class="work__btn btn">Начать сотрудничество</button>
         </div>
         <div class="work__cards">
-          <div></div>          
+          <div class="work__card_empty"></div>          
           <div class="work__card tr">
             <div class="work__count">
               <p class="work__count_number">20,3<br>5</p>
@@ -335,6 +349,79 @@
     </div>
    </section>
 
+   <!-- Footer -->
+
+   <section class="footer">
+    <div class="container">
+      <div class="footer__top-menu">
+        <img src="img/logo.svg" alt="Logo" class="footer__top-menu_logo">
+        <lu class="footer__nav-menu">         
+          <li class="footer__top-menu_item"><a href="#" class="footer__top-menu_link text_a">О компании</a></li>
+          <li class="footer__top-menu_item"><a href="#" class="footer__top-menu_link text_a">Продукция</a></li>
+          <li class="footer__top-menu_item"><a href="#" class="footer__top-menu_link text_a">Новости</a></li>
+          <li class="footer__top-menu_item"><a href="#" class="footer__top-menu_link text_a">Контакты</a></li>
+        </lu>
+        <div class="footer__inner">
+          <ul class="footer__socials">
+            <li class="footer__socials_item">
+              <a href="#" class="footer__socials_link">
+                <img src="img/vk_w.svg" alt="Vk" class="footer__socials_icon">
+              </a>
+            </li>
+            <li class="footer__socials_item">
+              <a href="#" class="footer__socials_link">
+                <img src="img/instagram_w.svg" alt="Instagram" class="footer__socials_icon">
+              </a>
+            </li>
+            <li class="footer__socials_item">
+              <a href="#" class="footer__socials_link">
+                <img src="img/telegram_w.svg" alt="Telegram" class="footer__socials_icon">
+             </a>
+            </li>
+            <li class="footer__socials_item">
+              <a href="#" class="footer__socials_link">
+                <img src="img/whatsapp_w.svg" alt="Whatsapp" class="footer__socials_icon">
+              </a>
+            </li>
+            <li class="footer__socials_item">
+              <a href="#" class="footer__socials_link">
+                <img src="img/dzen_w.svg" alt="Dzen" class="footer__socials_icon">
+             </a>
+            </li>
+            <li class="footer__socials_item">
+              <a href="#" class="footer__socials_link">
+                <img src="img/moyak_w.svg" alt="Moyak" class="footer__socials_icon">
+              </a>
+            </li>
+          </ul>          
+        </div>
+        
+      </div>
+      <div class="footer__contacts">
+        <div class="footer__contacts_flex">
+          <div class="footer__contacts_list">
+            <div class="footer__contacts_item">
+              <h4 class="footer__contacts_title text_h4">Наша почта:</h4>
+              <a href="#" class="footer__contacts_value">ntpzresh@mail.ru</a>
+            </div>
+            <div class="footer__contacts_item">
+              <h4 class="footer__contacts_title text_h4">Наш телефон:</h4>
+              <a href="#" class="footer__contacts_value">+7 (495) 210-28-98</a>
+            </div>
+            <div class="footer__contacts_item">
+              <h4 class="footer__contacts_title text_h4">Наш адрес:</h4>
+              <a href="#" class="footer__contacts_value">ул. Ленина., д. 52., п. 1</a>
+            </div>
+          </div>
+          <button class="footer__contacts_btn btn">Заявка</button>
+        </div>
+      </div>
+      <div class="footer__info">
+        <p class="footer__info_privacy">Политика конфиденциальности</p>
+        <p class="footer__info_copyright">Все права защищены. &copy; 2024</p>
+      </div>
+    </div>
+   </section>
 
   <script src="js/swiper-bundle.min.js"></script>
   <script src="js/main.js"></script>
